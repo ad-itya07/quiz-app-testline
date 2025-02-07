@@ -20,7 +20,7 @@ export default function AboutPage() {
           </p>
 
           <p>
-            Built using Next.js (App Router) and styled with ShadCN UI, Quiz Master offers a seamless and responsive user experience. Whether you're a casual learner or a trivia enthusiast, this app provides an engaging way to test your skills.
+            Built using Next.js (App Router) and styled with ShadCN UI, Quiz Master offers a seamless and responsive user experience. Whether you&apos;re a casual learner or a trivia enthusiast, this app provides an engaging way to test your skills.
           </p>
 
           <p>
