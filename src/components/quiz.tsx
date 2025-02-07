@@ -52,7 +52,7 @@ export function QuizComponent() {
       console.log(data.questions);
       setQuizData(data);
     } catch (err) {
-      setError("Failed to load quiz. Please try again later.");
+      setError(`Failed to load quiz. Please try again later.${err}`);
     } finally {
       setLoading(false);
     }
@@ -159,7 +159,7 @@ export function QuizComponent() {
           <h2 className="text-xl font-medium">
             {quizData.questions[currentQuestion].description}
           </h2>
-          <RadioGroup value={selectedAnswer} onValueChange={setSelectedAnswer}>
+          <RadioGroup value={selectedAnswer} onValueChange={(value) => setSelectedAnswer(value)}>
             {quizData.questions[currentQuestion].options.map((option) => (
               <motion.div
                 key={option.id}
