@@ -1,36 +1,94 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎯 Quiz Master
 
-## Getting Started
+![Quiz Master](https://img.shields.io/badge/Next.js-15-blue.svg)
+![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-3.3-blue.svg)
+![ShadCN UI](https://img.shields.io/badge/ShadCN-UI-green.svg)
 
-First, run the development server:
+**Quiz Master** is an interactive quiz web app built using **Next.js 15, Tailwind CSS, and ShadCN UI**. It dynamically fetches quiz questions from an external API and provides a seamless and engaging quiz experience.
 
-```bash
+🚀 **Live Demo**: [Quiz Master](https://quiz-app-testline-iqhc.vercel.app/)  
+📽️ **YouTube Tutorial**: [Watch Here](https://youtu.be/Ll8ux9YBgYQ)  
+📡 **API Source**: [JSONServe API](https://api.jsonserve.com/Uw5CrX)  
+
+---
+
+## ✨ Features
+
+✅ Fetches dynamic quiz data from an external API  
+✅ Smooth animations with **Framer Motion**  
+✅ Responsive & accessible UI using **Tailwind CSS** and **ShadCN UI**  
+✅ Progress tracking and scoring system  
+✅ Celebration confetti effect on quiz completion  
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** Next.js 15, React, TypeScript  
+- **Styling:** Tailwind CSS, ShadCN UI  
+- **Animations:** Framer Motion  
+- **State Management:** React Hooks (`useState`, `useEffect`)  
+
+---
+
+## 🚀 Getting Started
+
+### Clone the Repository
+```sh
+git clone https://github.com/ad-itya07/quiz-master.git
+cd quiz-master
+```
+
+### Install Dependencies
+```sh
+npm install
+# or
+yarn install
+```
+
+### Start the Development Server
+```sh
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Open in Browser
+- Go to http://localhost:3000 in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+<hr>
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+# API Endpoint
 
-## Learn More
+### The quiz questions are fetched from JSONServe API:
+🔗 https://api.jsonserve.com/Uw5CrX
 
-To learn more about Next.js, take a look at the following resources:
+You can replace this API URL in the fetchQuizData function if needed.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# Screenshots:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Start of the Quiz:
 
-## Deploy on Vercel
+<img src="public\image.png" />
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Answering Questions:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+<img src="public\image2.png" />
+
+### Quiz End:
+
+<img src="public\image3.png" />
+
+### About page:
+
+<img src="public\image4.png" />
+
+<hr>
+
+# Contact:
+
+- Creator: [Aditya Jha](https://github.com/ad-itya07)
+- GitHub Repository: [Quiz Master](https://github.com/ad-itya07/quiz-app-testline)
+
+
+<hr>
